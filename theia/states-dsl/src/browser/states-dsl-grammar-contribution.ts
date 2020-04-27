@@ -15,13 +15,13 @@ export class StatesGrammarContribution implements LanguageGrammarDefinitionContr
                 STATES_LANGUAGE_FILE_EXTENSION,
             ],
             mimetypes: [
-                'text/sm'
+                'text/rucm'
             ]
         });
         monaco.languages.setLanguageConfiguration(STATES_LANGUAGE_SERVER_ID, this.configuration);
 
-        const statesGrammar = require('../../data/states.tmLanguage.json');
-        registry.registerTextmateGrammarScope('source.sm', {
+        const statesGrammar = require('../../data/rucm.tmLanguage.json');
+        registry.registerTextmateGrammarScope('source.rucm',{
             async getGrammarDefinition() {
                 return {
                     format: 'json',
@@ -29,7 +29,7 @@ export class StatesGrammarContribution implements LanguageGrammarDefinitionContr
                 };
             }
         });
-        registry.mapLanguageIdToTextmateGrammar(STATES_LANGUAGE_SERVER_ID, 'source.sm');
+        registry.mapLanguageIdToTextmateGrammar(STATES_LANGUAGE_SERVER_ID, 'source.rucm');
     }
 
     protected configuration: monaco.languages.LanguageConfiguration = {

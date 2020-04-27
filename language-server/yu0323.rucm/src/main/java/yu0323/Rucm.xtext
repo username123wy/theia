@@ -1,0 +1,18 @@
+grammar yu0323.Rucm with org.eclipse.xtext.common.Terminals
+
+generate rucm "http://www.Rucm.yu0323"
+
+UCModel:
+	'ucmodel' name=ID
+	(actor+=Actor | usecase+=UseCase )*;
+	
+Actor:
+	'actor' name=ID 
+	 relationship+=Relationship*;
+	
+UseCase: 
+	'usecase' name=ID;
+	
+Relationship:
+	actor=[Actor]'=>' usecase=[UseCase];
+	

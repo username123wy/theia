@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="bin/main" path="src/main/java">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="bin/main" path="src/main/resources">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="bin/main" path="src/main/xtext-gen">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="bin/main" path="src/main/xtend-gen">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
+	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/gson-2.8.2.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/guava-19.0-rc3.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/guava-21.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/javax.inject-1.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/javax.websocket-api-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/org.eclipse.elk.alg.common-0.6.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/org.eclipse.elk.alg.layered-0.6.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/org.eclipse.elk.alg.spore-0.6.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/org.eclipse.elk.core-0.5.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/org.eclipse.elk.core-0.6.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/org.eclipse.elk.graph-0.5.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/org.eclipse.elk.graph-0.6.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/org.eclipse.emf.common-2.12.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/org.eclipse.emf.ecore.xmi-2.12.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/org.eclipse.emf.ecore-2.12.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/org.eclipse.sprotty.layout-0.7.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/org.eclipse.sprotty.server-0.7.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/org.eclipse.sprotty.xtext-0.7.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/org.eclipse.sprotty-0.7.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/org.eclipse.xtend.lib.macro-2.18.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/org.eclipse.xtend.lib-2.18.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/org.eclipse.xtext.xbase.lib-2.18.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/org.eclipse.xtext-2.12.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/jar_files/gson-2.8.2.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/jar_files/guava-19.0-rc3.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/jar_files/guava-21.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/jar_files/javax.inject-1.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/jar_files/javax.websocket-api-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/jar_files/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/jar_files/org.eclipse.elk.alg.common-0.6.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/jar_files/org.eclipse.elk.alg.layered-0.6.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/jar_files/org.eclipse.elk.alg.spore-0.6.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/jar_files/org.eclipse.elk.core-0.5.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/jar_files/org.eclipse.elk.core-0.6.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/jar_files/org.eclipse.elk.graph-0.5.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/jar_files/org.eclipse.elk.graph-0.6.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/jar_files/org.eclipse.emf.common-2.12.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/jar_files/org.eclipse.emf.ecore.xmi-2.12.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/jar_files/org.eclipse.emf.ecore-2.12.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/jar_files/org.eclipse.sprotty.layout-0.7.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/jar_files/org.eclipse.sprotty-0.7.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/jar_files/org.eclipse.xtend.lib.macro-2.18.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/jar_files/org.eclipse.xtend.lib-2.18.0.jar"/>
+	<classpathentry kind="lib" path="D:/南航研一/RUCM相关/sprotty-jar/jar_files/org.eclipse.xtext.xbase.lib-2.18.0.jar"/>
+	<classpathentry kind="output" path="bin/default"/>
+</classpath>

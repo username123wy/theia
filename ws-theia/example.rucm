@@ -1,0 +1,7 @@
+ucmodel example
+
+actor yuyue
+
+usecase drive
+usecase stop
+  

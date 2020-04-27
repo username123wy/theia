@@ -1,0 +1,38 @@
+{
+    "scopeName": "source.rucm",
+     "name": "Rucm",
+     "fileTypes": ["rucm"],
+     "patterns": [
+         {
+             "name": "keyword.other.rucm",
+             "match": "\\b(actor|usecase|ucmodel|relationship)\\b"
+         },
+         {
+             "name": "markup.inline.rawrucm",
+             "begin": "<",
+             "end": ">"
+         },
+         {
+             "name": "string.quoted.double.rucm",
+             "begin": "\"",
+             "end": "\""
+         },
+         {
+             "name": "string.quoted.single.rucm",
+             "begin": "'",
+             "end": "'"
+         },
+         {
+             "name": "comment.line.rucm",
+             "match": "//.+$"
+         },
+         {
+             "name": "comment.block.rucm",
+             "begin": "/\\*",
+             "end": "\\*/"
+         }
+                                      ]  
+ 
+ 
+ 
+ }

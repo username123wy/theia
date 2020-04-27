@@ -24,9 +24,9 @@
   },
   "scripts": {
     "install:languageserver": "rimraf -rf ./build && mkdir build && yarn copy:languageserver && yarn unzip:languageserver",
-    "copy:languageserver": "cpr ../../language-server/io.typefox.examples.theia.states.ide/build/distributions/states-language-server.zip ./states-language-server.zip -o",
-    "unzip:languageserver": "cross-unzip ./states-language-server.zip ./build/",
-    "prepare": "yarn run clean && yarn install:languageserver && yarn run build",
+    "copy:languageserver": "cpr ../language-server/yu0323.rucm.ide/build/distributions/yu0323.rucm.ide-shadow-1.0.0-SNAPSHOT.zip ./yu0323.rucm.ide-shadow-1.0.0-SNAPSHOT.zip -o",
+    "unzip:languageserver": "cross-unzip ./yu0323.rucm.ide-shadow-1.0.0-SNAPSHOT.zip ./build/",
+    "prepare": "yarn run clean && yarn run build",
     "clean": "rimraf lib",
     "build": "tsc",
     "watch": "tsc -w"
