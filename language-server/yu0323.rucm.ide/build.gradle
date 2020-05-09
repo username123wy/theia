@@ -10,8 +10,8 @@ dependencies {
 	compile "org.eclipse.sprotty:org.eclipse.sprotty.server:0.7.0"
 	compile "org.eclipse.sprotty:org.eclipse.sprotty.xtext:0.7.0"
 	
-	compile "org.eclipse.sprotty:org.eclipse.sprotty.layout:${sprottyVersion}"
-	compile "org.eclipse.elk:org.eclipse.elk.alg.layered:${elkVersion}"
+	compile "org.eclipse.sprotty:org.eclipse.sprotty.layout:0.7.0"
+	compile "org.eclipse.elk:org.eclipse.elk.alg.layered:0.6.0"
 }
 
 apply plugin: 'application'
